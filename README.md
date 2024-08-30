@@ -1,4 +1,4 @@
-# Music Time Travel
+# Music Time Travel 🎶
 
 **Music Time Travel** is a Python application that allows users to discover and curate the top songs from a specific date using Billboard and Spotify APIs. The application fetches Billboard Hot 100 chart data for a given date and creates a corresponding playlist on Spotify, adding each song to the playlist.
 
