@@ -9,12 +9,12 @@ client_secret = os.getenv("SPOTIPY_CLIENT_SECRET")
 redirect_url = os.getenv("SPOTIPY_REDIRECT_URI")
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="3075b3e61629474991ffd88efc4edf7c",
-    client_secret="edf2b76f18c14a4c84441db29dac9985",
+    client_id="YOUR CLIENT ID",
+    client_secret="YOUR SECRET ID",
     redirect_uri= "http://localhost:8888/callback",
     scope="playlist-modify-private",
     show_dialog=True,
-    username= "31ja3p6clwuyjzna4hpdbsm7oigm"
+    username= "Your spotify username"
 ))
 
 date = input("Which year you want to travel to?\nWrite the date in this format (YYYY-MM-DD): ")
